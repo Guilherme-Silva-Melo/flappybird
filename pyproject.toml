@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "Jogo"
+version = "0.1.0"
+description = ""
+authors = ["Gui Melo <guilherme.melo@solucaut.com.br>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygame = "^2.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+commitizen = "^2.29.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
